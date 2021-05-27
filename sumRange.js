@@ -5,7 +5,7 @@ function sumRange(num){
         if(num === 0)
         return sum;
         
-    sum*= num;          
+    sum+= num;          
     return calcSum(num -1) ;
     }
     return calcSum(num);    
